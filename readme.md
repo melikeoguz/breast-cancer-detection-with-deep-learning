@@ -40,7 +40,7 @@ Bu çalışmada sınıflandırma testi doğruluğunu, hassasiyet ve özgüllük 
 Kullanılan veri kümesi, UCI Makine Öğrenme Deposundaki 569 örnek ve 32 özellikten oluşan WDBC veri kümesidir. Veri kümesinde yer alan özelliklerden bazıları şunlardır:
 
 
-<table height="500px" width="600px">
+<table height="300px" width="600px">
       <tr>
          <td><b>her hücre çekirdeği için yarıçap</td>
          <td>radius_mean</td>
