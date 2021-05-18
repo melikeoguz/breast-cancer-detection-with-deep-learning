@@ -1,4 +1,4 @@
-<h2 style="text-align:center">YAPAY SİNİR AĞLARI İLE MEME KANSERİ TEŞHİSİ</h2>
+<h2>YAPAY SİNİR AĞLARI İLE MEME KANSERİ TEŞHİSİ</h2>
 <center><img src="https://i.hizliresim.com/b5j28me.jpeg"></center>
 
 <h3>1. Giriş</h3>
