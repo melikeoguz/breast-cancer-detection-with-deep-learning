@@ -1,14 +1,14 @@
-<h2 style="text-align:center">YAPAY SİNİR AĞLARI İLE MEME <br/>KANSERİ TEŞHİSİ</h2>
+<h2 style="text-align:center">YAPAY SİNİR AĞLARI İLE MEME KANSERİ TEŞHİSİ</h2>
 <center><img src="https://i.hizliresim.com/b5j28me.jpeg"></center>
 
-<h4>1. Giriş</h4>
+<h3>1. Giriş</h3>
 <p>Meme kanseri, kadınlar arasında ikinci ölüm nedenidir. Erken teşhis ve ardından uygun kanser tedavisi ölümcül riski azaltabilir. Tümörler iyi veya kötü huylu olabilir. İyi huylu tümörler kanser değildir. Meme kanseri kötü huylu bir tümördür ve göğüs hücrelerinde gelişir.</p>
 
 Tıp uzmanları bir hastalığı tespit ederken hata yapabilir. Veri madenciliği ve makine öğrenimi gibi teknolojinin yardımı, teşhis doğruluğunu önemli ölçüde artırabilir. Yapay Sinir Ağları (YSA), akıllı meme kanseri teşhisinde yaygın olarak kullanılmaktadır.
 
 <hr></hr>
 
-<h4>Yapay Sinir Ağları (Artificial Neural Network (ANN))</h4>
+<h3>Yapay Sinir Ağları (Artificial Neural Network (ANN))</h3>
 <p>Yapay sinir ağları insan beyni örnek alınarak, öğrenme sürecinin matematiksel olarak modellenmesi sonucu ortaya çıkmıştır. Beyindeki biyolojik sinir ağlarının yapısını, öğrenme, hatırlama ve genelleme kabiliyetlerini taklit eder.</p>
 
 
@@ -16,7 +16,7 @@ Tıp uzmanları bir hastalığı tespit ederken hata yapabilir. Veri madenciliğ
 
 YSA, sınıflandırma ve regresyon problemleri gibi yaygın veri madenciliği görevleri, örüntü tanıma, tıbbi teşhis, makine öğrenimi ve yapay zeka gibi çeşitli alanlarda akıllı bir araç olarak yaygın bir şekilde kullanılmaktadır.
 
-<br/><ul><h5><b>Yapay Sinir Ağlarının Özellikleri</b></h5>
+<br/><ul><h4><b>Yapay Sinir Ağlarının Özellikleri</b></h4>
 
 <li>Yapay sinir ağları, birçok hücreden meydana gelir ve bu hücreler eş zamanlı çalışarak karmaşık işleri gerçekleştirir.</li>
 <li>Öğrenme kabiliyeti olduğundan farklı öğrenme algoritmalarıyla öğrenebilir.  </li>
@@ -33,7 +33,7 @@ YSA, sınıflandırma ve regresyon problemleri gibi yaygın veri madenciliği g�
 
 <hr></hr>
 
-<h4><b>3. Veri Kümesi</b></h4>
+<h3><b>3. Veri Kümesi</b></h3>
 
 Bu çalışmada sınıflandırma testi doğruluğunu, hassasiyet ve özgüllük değerlerini ölçerek sunmakta olan <b>Wisconsin Meme Kanseri Teşhisi (WDBC)</b> veri kümesi kullanılmaktadır.
 
@@ -103,44 +103,13 @@ Kullanılan veri kümesi, UCI Makine Öğrenme Deposundaki 569 örnek ve 32 öze
       </tr>
 </table>
 
-<p>gibi özellikler bulunmaktadır. Veri kümesindeki 569 meme kanseri verisinin <b>212'si kötü huylu(malignant)</b> ve <b>357'si iyi huylu(benign)</b> idi.</p><br/>
+gibi özellikler bulunmaktadır. Veri kümesindeki 569 meme kanseri verisinin <b>212'si kötü huylu(malignant)</b> ve <b>357'si iyi huylu(benign)</b> idi.
 
 <hr></hr>
 
-<h4>4. Projenin Çalıştırılması</h4>
+<h3>4. Projenin Çalıştırılması</h3>
 
 <a href="https://github.com/melikeoguz/breast-cancer-detection-with-deep-learning/blob/main/ann-binary-classification.ipynb"><button class="favorite styled" type="button" >Projeyi Görüntülemek İçin Tıklayınız !</button></a>
 
 
-<link rel="stylesheet" href="github-markdown.css">
-<style>
-	.styled {
-    border: 0;
-    line-height: 2.0;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
-
-.styled:hover {
-    background-color: rgba(255, 0, 0, 1);
-}
-
-.styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-
-	}
-</style>
 
